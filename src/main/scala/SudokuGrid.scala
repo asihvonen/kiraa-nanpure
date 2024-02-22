@@ -1,8 +1,8 @@
 class SudokuGrid {
-  val solution: String
-  val input: String
-  val rows: Vector[SudokuRow]
-  val columns: Vector[SudokuColumn]
-  val subgrid: Vector[SubGrid]
-  val cages: Vector[Cage]
+  var solution: String = ""
+  var input: String = ""
+  var rows: Vector[SudokuRow] = Vector[SudokuRow]()
+  var columns: Vector[SudokuColumn] = Vector[SudokuColumn]()
+  var subgrid: Vector[SubGrid] = Vector[SubGrid]()
+  var cages: Vector[Cage] = Vector[Cage]()
 }
